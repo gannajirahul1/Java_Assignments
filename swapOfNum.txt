@@ -1,0 +1,27 @@
+package Assignments;
+
+public class swapping_number_without_temp_variable {
+
+	public static void main(String[] args) {
+		
+		/*
+		// swapping of number without using temperory variable
+		//assignment operator we did without using temp
+		
+		int a=10;
+		int b=20;
+		System.out.println("before swaping");
+		System.out.println("a value is" + a);
+		System.out.println("b value is" + b);
+
+		System.out.println("after swapping");
+		a+=10;
+		b-=10;
+		System.out.println("a value is" + a);
+		System.out.println("b value is" + b);
+		*/
+	}
+	
+	
+		
+}

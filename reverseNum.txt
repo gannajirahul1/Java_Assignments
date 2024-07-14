@@ -1,0 +1,36 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class reverse_number {
+
+	public static void main(String[] args) {
+		// reverse a numbber by normal initialization
+		/*
+		int i=1234;
+		int rev=0;
+		while(i!=0)
+		{
+			rev=rev*10+i%10;
+			i=i/10;
+		}
+		System.out.println("reversed number is "+ rev);
+		*/
+		//getting input from user and verifing the reverse number 
+		/*
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num=sc.nextInt();
+		int rev=0;
+		while(num!=0)
+		{
+			rev=rev*10+num%10;
+			num=num/10;
+		}
+		System.out.println("The reversed number is "+ rev);
+		*/
+	}
+
+	
+
+}

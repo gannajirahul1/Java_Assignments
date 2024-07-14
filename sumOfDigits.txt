@@ -1,0 +1,24 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class sumOdDigits {
+
+	public static void main(String[] args) {
+		// finding sum of digits
+		
+		Scanner sc=new Scanner(System.in);		//accepting input from user
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();			//storing into num variable
+		
+		int sum=0;
+		while(num>0)
+		{
+			sum=sum+num%10;
+			num=num/10;
+		}
+		System.out.println("sum of digits:"+ sum);
+
+	}
+
+}
